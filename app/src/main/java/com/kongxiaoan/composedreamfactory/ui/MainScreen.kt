@@ -29,9 +29,9 @@ import com.kongxiaoan.composedreamfactory.ui.screens.*
 // 导航目的地密封类
 sealed class Screen(val route: String, val title: String, val icon: androidx.compose.ui.graphics.vector.ImageVector) {
     object BasicSyntax : Screen("basic_syntax", "基础语法", Icons.Filled.Code)
-    object ApiExamples : Screen("api_examples", "API示例", Icons.Filled.Extension)
-    object CommonPatterns : Screen("common_patterns", "常用模式", Icons.Filled.Pattern)
-    object Architecture : Screen("architecture", "架构", Icons.Filled.Architecture)
+    object ApiExamples : Screen("api_examples", "API示例", Icons.Filled.Apps)
+    object CommonPatterns : Screen("common_patterns", "常用模式", Icons.Filled.Widgets)
+    object Architecture : Screen("architecture", "架构", Icons.Filled.AccountTree)
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
