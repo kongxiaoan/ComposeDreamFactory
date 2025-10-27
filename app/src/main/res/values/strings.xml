@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Compose Dream Factory</string>
+    <string name="welcome_message">欢迎来到 Compose 学习工厂</string>
+    <string name="basic_syntax">基础语法</string>
+    <string name="api_examples">API 示例</string>
+    <string name="common_patterns">常用模式</string>
+    <string name="architecture">架构示例</string>
+</resources>
