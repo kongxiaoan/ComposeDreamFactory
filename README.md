@@ -1,6 +1,31 @@
 # ComposeDreamFactory
 Compose 学习工厂 - 一个全面的 Jetpack Compose 学习项目
 
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.9.0-blue.svg)](https://kotlinlang.org)
+[![Compose](https://img.shields.io/badge/Compose-2023.10.01-green.svg)](https://developer.android.com/jetpack/compose)
+[![Material3](https://img.shields.io/badge/Material3-Latest-orange.svg)](https://m3.material.io/)
+
+## 🚀 快速开始
+
+1. **克隆项目**
+```bash
+git clone https://github.com/kongxiaoan/ComposeDreamFactory.git
+cd ComposeDreamFactory
+```
+
+2. **打开项目**
+   - 使用 Android Studio Hedgehog (2023.1.1) 或更高版本
+   - File → Open → 选择项目目录
+
+3. **运行项目**
+   - 连接 Android 设备或启动模拟器（API 24+）
+   - 点击运行按钮 ▶️
+
+4. **开始学习**
+   - 浏览 4 个学习模块
+   - 查看 [学习笔记](docs/LEARNING_NOTES.md)
+   - 阅读 [架构指南](docs/ARCHITECTURE.md)
+
 ## 项目介绍
 
 ComposeDreamFactory 是一个专注于 Jetpack Compose 学习的示例项目，涵盖了从基础语法到架构设计的完整内容。
@@ -46,6 +71,25 @@ ComposeDreamFactory 是一个专注于 Jetpack Compose 学习的示例项目，�
 - **Material3**: 最新版本
 - **Navigation Compose**: 导航组件
 - **Lifecycle**: 生命周期感知组件
+
+## ✨ 特性
+
+- ✅ **4 个完整学习模块**: 基础语法、API 示例、常用模式、架构设计
+- ✅ **MVVM 架构实现**: ViewModel + StateFlow + Repository
+- ✅ **Material3 设计**: 遵循最新 Material Design 3 规范
+- ✅ **Navigation Compose**: 声明式导航系统
+- ✅ **完整文档**: 中文文档 + 代码注释
+- ✅ **最佳实践**: 遵循 Android 官方推荐的开发模式
+- ✅ **即学即用**: 所有代码可直接运行
+
+## 📸 应用截图
+
+_应用包含 4 个主要学习模块，通过底部导航栏切换：_
+
+1. **基础语法**: 学习 Composable 函数、基本组件和 Modifier
+2. **API 示例**: 掌握常用 Compose API 的使用方法
+3. **常用模式**: 了解状态管理、动画和副作用处理
+4. **架构设计**: 实践 MVVM 架构模式
 
 ## 项目结构
 
@@ -149,6 +193,16 @@ git clone https://github.com/kongxiaoan/ComposeDreamFactory.git
 2. **第二步**: 学习"API 示例"，掌握常用组件的使用方法
 3. **第三步**: 研究"常用模式"，了解状态管理和动画
 4. **第四步**: 深入"架构设计"，学习 MVVM 架构实践
+
+## 📚 文档
+
+项目包含完整的中文文档：
+
+- **[README.md](README.md)** - 项目介绍和快速开始
+- **[学习笔记](docs/LEARNING_NOTES.md)** - Compose 核心概念和 API 详解
+- **[架构指南](docs/ARCHITECTURE.md)** - MVVM 架构详细说明和最佳实践
+- **[项目总结](docs/PROJECT_SUMMARY.md)** - 项目完成内容总结
+- **[项目结构](docs/PROJECT_STRUCTURE.md)** - 可视化项目结构和数据流
 
 ## 相关资源
 
